@@ -17,4 +17,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '5.0'
   spec.tvos.deployment_target = '9.0'
   spec.watchos.deployment_target = '2.0'
+  
+spec.resource_bundles = {'SAMKeychain' => ['Source/PrivacyInfo.xcprivacy']}
 end
