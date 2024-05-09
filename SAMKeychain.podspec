@@ -10,6 +10,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files = 'Sources/*.{h,m}'
   spec.resources = 'Support/SAMKeychain.bundle'
+  spec.resource_bundles = {'SAMKeychain' => ['Sources/PrivacyInfo.xcprivacy']}
 
   spec.frameworks = 'Security', 'Foundation'
 
@@ -17,6 +18,4 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '5.0'
   spec.tvos.deployment_target = '9.0'
   spec.watchos.deployment_target = '2.0'
-  
-  spec.resource_bundles = {'SAMKeychain' => ['Sources/PrivacyInfo.xcprivacy']}
 end
