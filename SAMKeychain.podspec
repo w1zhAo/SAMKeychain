@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files = 'Sources/*.{h,m}'
   spec.resources = 'Support/SAMKeychain.bundle'
-  spec.resource_bundles = {'SAMKeychain' => ['Sources/PrivacyInfo.xcprivacy']}
+  spec.resources = 'Support/PrivacyInfo.xcprivacy'
 
   spec.frameworks = 'Security', 'Foundation'
 

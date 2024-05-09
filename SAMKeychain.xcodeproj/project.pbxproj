@@ -61,7 +61,6 @@
 
 /* Begin PBXFileReference section */
 		02AB79B51CA69B4700E52F3D /* SAMKeychain.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SAMKeychain.bundle; sourceTree = "<group>"; };
-		20EB5FD12BEA20C700CCF9C1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		20EB5FD22BEA20D700CCF9C1 /* SAMKeychain.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SAMKeychain.podspec; sourceTree = SOURCE_ROOT; };
 		21632D7C1C92599100C40D7D /* SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychain.h; sourceTree = "<group>"; };
 		21632D7D1C92599100C40D7D /* SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychain.m; sourceTree = "<group>"; };
@@ -149,7 +148,6 @@
 		21632D781C92599100C40D7D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				20EB5FD12BEA20C700CCF9C1 /* PrivacyInfo.xcprivacy */,
 				21632D7C1C92599100C40D7D /* SAMKeychain.h */,
 				21632D7D1C92599100C40D7D /* SAMKeychain.m */,
 				21632D7E1C92599100C40D7D /* SAMKeychainQuery.h */,
