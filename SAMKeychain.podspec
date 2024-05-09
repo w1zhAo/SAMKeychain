@@ -9,8 +9,8 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   spec.source_files = 'Sources/*.{h,m}'
-  spec.resources = 'Support/SAMKeychain.bundle'
-  spec.resources = 'Support/PrivacyInfo.xcprivacy'
+  spec.resource = 'Support/SAMKeychain.bundle'
+  spec.resource_bundles = 'Support/PrivacyInfo.xcprivacy'
 
   spec.frameworks = 'Security', 'Foundation'
 
